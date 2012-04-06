@@ -380,7 +380,7 @@ h1{
 #mainpost {
 	margin: 0;
 	padding: 0 10px 10px 0;
-	border-bottom: 1px solid #ff4e00;
+	border-bottom: 1px solid #ff8207;
 }
 
 h3{
@@ -414,13 +414,13 @@ h3{
 	padding: 0 10px 0 0; 
 	width: 300px; 
 	height: auto; 
-	border-right: 1px solid #ff4e00;
+	border-right: 1px solid #ff8207;
 }
 
 .photopost {
 	color: #333333; 
 	height: inherit; 
-	border-bottom: 1px solid #ff4e00; 
+	border-bottom: 1px solid #ff8207; 
 	padding: 0 0 10px 0; 
 	margin: 10px 0 0 0; 
 }
@@ -453,7 +453,7 @@ h3{
 .videopost {
 	color: #333333; 
 	height: auto; 
-	border-bottom: 1px solid #ff4e00; 
+	border-bottom: 1px solid #ff8207; 
 	padding: 0 0 10px 0; 
 	margin: 0;
 }
@@ -482,7 +482,7 @@ h3{
 	margin: 10px 0 10px 0;
 	padding: 14px;
 	background: #00007a;
-	border-bottom: 1px solid #ff4e00;
+	border-bottom: 1px solid #ff8207;
 }
 
 ul.menu {
@@ -549,13 +549,13 @@ ul.menu {
 .advertisement{
 	margin: 10px 0 10px 0;
 	padding: 0;
-	border-bottom: 1px solid #ff4e00;
+	border-bottom: 1px solid #ff8207;
 }
 
 .socialmedia {
 	margin: 10px 0 0 0; 
 	padding: 0 0 10px 0;
-	border-bottom: 1px solid #ff4e00; 
+	border-bottom: 1px solid #ff8207; 
 }
 
 #lastpost {
@@ -578,16 +578,20 @@ ul.menu {
 
 .photopages a{
 	text-decoration: none;
-	color: #ff4e00;
-	padding: 0 5px 0 5px;
+	color: #ff8207;
 }
 .photopages a:hover {
 	text-decoration: underline;
 }
 
 .photopages {
-	border: 1px solid #ff4e00;
-	margin: 10px 0 5px 0; 
+	margin-top: 15px; 
+	padding: 0px;
+}
+
+#nextgallery {
+	float: right;
+	clear: both;
 }
 /*Zubin's Header CSS starts here*/
 
