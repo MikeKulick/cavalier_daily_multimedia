@@ -474,6 +474,29 @@ h3{
 	height: inherit; 
 }
 
+/*video view styling */
+
+.videoview {
+	color: #333333; 
+	height: 150px; 
+	border-bottom: 1px solid #ff8207; 
+	padding: 0 0 10px 0; 
+	margin: 10px 0 5px 0;
+	width: 620px;
+}
+
+.videoview > img{
+	float: right;
+	width: 200px;
+	height: auto; 
+}
+
+.videoview > p {
+	width: 400px;
+	padding-right: 10px;
+}
+
+
 /*sidebar styling */
 
 /* tab styling for activity box */
