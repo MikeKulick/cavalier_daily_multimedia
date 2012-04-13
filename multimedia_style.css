@@ -361,7 +361,7 @@ body {
 
 /*Main Content Formatting by Mike*/
 
-}
+
 h1{
 	color: #091f5d; 
 	margin: 5px 0 0 0; 
@@ -414,7 +414,6 @@ h3{
 	padding: 0 10px 0 0; 
 	width: 300px; 
 	height: auto; 
-	border-right: 1px solid #ff8207;
 }
 
 .photopost {
@@ -482,15 +481,17 @@ h3{
 	border-bottom: 1px solid #ff8207; 
 	padding: 0 0 10px 0; 
 	margin: 10px 0 5px 0;
-	width: 620px;
-	border: 2px solid black;
+	width: 300px;
 }
 
-
+.videoview > h4 {
+	margin: 0 0 5px 0;
+}
 
 .videoview > p {
-	width: 400px;
-	padding-right: 10px;
+	width: 300px;
+	margin: 0;
+	padding: 5px 10px 5px 0;
 }
 
 
@@ -614,6 +615,13 @@ ul.menu {
 	float: right;
 	clear: both;
 }
+
+#moregalleries {
+	border-bottom: 2px solid black; 
+	width: 620px;
+}
+
+
 /*Zubin's Header CSS starts here*/
 
 header
