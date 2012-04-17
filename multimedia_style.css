@@ -398,6 +398,7 @@ h3{
 
 .description{
 	font-size: 12px;
+	float: left;
 }
 
 #photogallery a, #videos a{
@@ -492,6 +493,11 @@ h3{
 	width: 300px;
 	margin: 0;
 	padding: 5px 10px 5px 0;
+}
+
+h4 {
+	margin: 5px;
+	padding: 0px;
 }
 
 
@@ -616,10 +622,7 @@ ul.menu {
 	clear: both;
 }
 
-#moregalleries {
-	border-bottom: 2px solid black; 
-	width: 620px;
-}
+
 
 
 /*Zubin's Header CSS starts here*/
