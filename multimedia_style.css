@@ -398,9 +398,12 @@ h3{
 
 .description{
 	font-size: 12px;
-	float: left;
 }
 
+#photogallerydescription {
+	font-size: 12px;
+	float: left;
+}
 #photogallery a, #videos a{
 	text-decoration: none;
 	color: #ff8207;
