@@ -436,6 +436,14 @@ h3{
 	float: right;
 }
 
+#example_video_1 {
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	height: auto;
+	float: right;
+}
+
 .photopost > p {
 	width: 175px;
 }
@@ -458,7 +466,7 @@ h3{
 	height: auto; 
 	border-bottom: 1px solid #ff8207; 
 	padding: 0 0 10px 0; 
-	margin: 0;
+	margin: 10px 0 0 0; 
 }
 
 .videopost > p {
@@ -467,9 +475,11 @@ h3{
 
 .videopost > img {
 	float: right; 
-	width: 125px;
+	width: 150px;
 	height: auto;
 }
+
+.videopost > video {}
 #sidebar{
 	margin: 0; 
 	padding: 0;
