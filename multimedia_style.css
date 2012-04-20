@@ -379,8 +379,12 @@ h1{
 
 #mainpost {
 	margin: 0;
-	padding: 0 10px 10px 0;
+	padding: 0;
 	border-bottom: 1px solid #ff8207;
+}
+
+#mainpost > video{
+	margin-left: 10px;
 }
 
 h3{
